@@ -29,12 +29,12 @@ public class PointTest {
     }
 
     @Test
-    public void when17to55then1dot4142() {
-        double expected = 1.4142;
+    public void when17to55then4dot4721() {
+        double expected = 4.4721;
         int x1 = 1;
-        int y1 = 1;
-        int x2 = 2;
-        int y2 = 2;
+        int y1 = 7;
+        int x2 = 5;
+        int y2 = 5;
         double out = Point.distance(x1, y1, x2, y2);
         assertEquals(expected, out, 0.01);
     }
