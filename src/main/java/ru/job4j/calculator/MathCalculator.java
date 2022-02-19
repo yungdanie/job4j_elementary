@@ -16,7 +16,4 @@ public class MathCalculator {
     public static double sumAllMeth(double first, double second) {
         return sum(first, second) + multiply(first, second) + delta(first, second) + div(first, second);
     }
-
-    public static void main(String[] args) {
-    }
 }
